@@ -1,0 +1,159 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+info using npm@1.1.9
+info using node@v0.7.7-pre
+verbose config file /Users/rollen_gomes/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose config file /usr/local/lib/node_modules/npm/npmrc
+verbose caching /Users/rollen_gomes/newage/imakefilejs/package.json
+verbose loadDefaults imakefilejs@0.0.0
+verbose readDependencies: using package.json deps
+verbose where, deps [ '/Users/rollen_gomes/newage/imakefilejs', [ 'cucumber' ] ]
+verbose from cache /Users/rollen_gomes/newage/imakefilejs/package.json
+info preinstall imakefilejs@0.0.0
+verbose from cache /Users/rollen_gomes/newage/imakefilejs/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'cucumber@0.2.12', null ]
+silly cache add: name, spec, args [ undefined, 'cucumber@0.2.12', [ 'cucumber@0.2.12', null ] ]
+verbose parsed url { pathname: 'cucumber@0.2.12',
+verbose parsed url   path: 'cucumber@0.2.12',
+verbose parsed url   href: 'cucumber@0.2.12' }
+silly cache add: name, spec, args [ 'cucumber', '0.2.12', [ 'cucumber', '0.2.12' ] ]
+verbose parsed url { pathname: '0.2.12', path: '0.2.12', href: '0.2.12' }
+verbose addNamed [ 'cucumber', '0.2.12' ]
+verbose addNamed [ '0.2.12', '0.2.12' ]
+verbose raw, before any munging cucumber/0.2.12
+verbose url resolving [ 'https://registry.npmjs.org/', './cucumber/0.2.12' ]
+verbose url resolved https://registry.npmjs.org/cucumber/0.2.12
+http GET https://registry.npmjs.org/cucumber/0.2.12
+http 200 https://registry.npmjs.org/cucumber/0.2.12
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.2.0 (Erlang OTP/R15B)',
+silly get cb     etag: '"C52UQSQBHOPGJHSBLMSYC2SSS"',
+silly get cb     date: 'Tue, 03 Apr 2012 16:35:14 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '17805' } ]
+verbose bin dist [ null,
+verbose bin dist   { shasum: 'e0dab8f28b4902486debc12d2aa0963645c4fac7',
+verbose bin dist     tarball: 'http://registry.npmjs.org/cucumber/-/cucumber-0.2.12.tgz' } ]
+verbose addRemoteTarball [ 'https://registry.npmjs.org/cucumber/-/cucumber-0.2.12.tgz',
+verbose addRemoteTarball   'e0dab8f28b4902486debc12d2aa0963645c4fac7' ]
+verbose mkdir (expected) error ENOENT, stat '/var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269'
+verbose mkdir (expected) error ENOENT, stat '/var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913'
+verbose mkdir done: /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913 755
+verbose fetch to /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/tmp.tgz
+http GET https://registry.npmjs.org/cucumber/-/cucumber-0.2.12.tgz
+http 200 https://registry.npmjs.org/cucumber/-/cucumber-0.2.12.tgz
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 7975
+info shasum e0dab8f28b4902486debc12d2aa0963645c4fac7
+info shasum /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/tmp.tgz
+verbose mkdir (expected) error ENOENT, stat '/var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package'
+verbose mkdir done: /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package
+verbose caching /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package/package.json
+verbose loadDefaults cucumber@0.2.12
+verbose tarball contents [ 'package', 'tmp.tgz' ]
+verbose from cache /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package/package.json
+verbose pack /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package
+verbose pack /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package /Users/rollen_gomes/.npm/cucumber/0.2.12/package.tgz
+silly makeList /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package
+silly dir, dirLen [ '/var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package',
+silly dir, dirLen   110 ]
+verbose tarball /Users/rollen_gomes/.npm/cucumber/0.2.12/package.tgz
+verbose parent /var/folders/zi/ziktyfyzF2KW1UWoA9jPXU+++TI/-Tmp-/npm-1333470915269/1333470915269-0.13625975069589913/package
+verbose mkdir (expected) error ENOENT, stat '/Users/rollen_gomes/.npm/cucumber/0.2.12/package'
+verbose mkdir done: /Users/rollen_gomes/.npm/cucumber/0.2.12/package 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /Users/rollen_gomes/.npm/cucumber/0.2.12/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose gunzed /Users/rollen_gomes/.npm/cucumber/0.2.12/package
+verbose caching /Users/rollen_gomes/.npm/cucumber/0.2.12/package/package.json
+verbose loadDefaults cucumber@0.2.12
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 40960
+silly updated sha bytes 7974
+info shasum 63fc8c4c87436581dad0b5323ad62a27b2bcc666
+info shasum /Users/rollen_gomes/.npm/cucumber/0.2.12/package.tgz
+verbose from cache /Users/rollen_gomes/.npm/cucumber/0.2.12/package/package.json
+verbose chmod /Users/rollen_gomes/.npm/cucumber/0.2.12/package.tgz 644
+verbose chown [ '/Users/rollen_gomes/.npm/cucumber/0.2.12/package.tgz',
+verbose chown   501,
+verbose chown   20 ]
+silly resolved [ { name: 'cucumber',
+silly resolved     description: 'The official JavaScript implementation of Cucumber.',
+silly resolved     keywords: [ 'testing', 'bdd', 'cucumber', 'gherkin', 'tests' ],
+silly resolved     version: '0.2.12',
+silly resolved     homepage: 'http://github.com/cucumber/cucumber-js',
+silly resolved     author: 
+silly resolved      { name: 'Julien Biezemans',
+silly resolved        email: 'jb@jbpros.com',
+silly resolved        url: 'http://jbpros.net' },
+silly resolved     contributors: 
+silly resolved      [ { name: 'Julien Biezemans',
+silly resolved          email: 'jb@jbpros.com',
+silly resolved          url: 'http://jbpros.net' },
+silly resolved        { name: 'Fernando Acorreia',
+silly resolved          email: 'fernandoacorreia@gmail.com' },
+silly resolved        { name: 'Paul Jensen', email: 'paulbjensen@gmail.com' },
+silly resolved        { name: 'Kushal Pisavadia' },
+silly resolved        { name: 'Olivier Melcher', email: 'olivier.melcher@gmail.com' },
+silly resolved        { name: 'Tristan Dunn', email: 'tristanzdunn@gmail.com' } ],
+silly resolved     repository: 
+silly resolved      { type: 'git',
+silly resolved        url: 'git://github.com/cucumber/cucumber-js.git' },
+silly resolved     bugs: 
+silly resolved      { email: 'cukes@googlegroups.com',
+silly resolved        url: 'http://github.com/cucumber/cucumber-js/issues' },
+silly resolved     directories: { lib: './lib' },
+silly resolved     main: './lib/cucumber',
+silly resolved     engines: { node: '0.4 || 0.5 || 0.6' },
+silly resolved     dependencies: 
+silly resolved      { gherkin: '2.6.8',
+silly resolved        'jasmine-node': '1.0.13',
+silly resolved        connect: '1.8.1',
+silly resolved        browserify: '1.8.1',
+silly resolved        nopt: '1.0.10',
+silly resolved        underscore: '1.2.2',
+silly resolved        rimraf: '1.0.8',
+silly resolved        mkdirp: '0.2.1',
+silly resolved        'cucumber-html': '0.2.0',
+silly resolved        findit: '0.1.1',
+silly resolved        'coffee-script': '1.1.2' },
+silly resolved     scripts: { test: './bin/cucumber.js && jasmine-node spec' },
+silly resolved     bin: { 'cucumber.js': './bin/cucumber.js' },
+silly resolved     licenses: 
+silly resolved      [ { type: 'MIT',
+silly resolved          url: 'http://github.com/cucumber/cucumber.js/LICENSE' } ],
+silly resolved     _id: 'cucumber@0.2.12',
+silly resolved     devDependencies: {},
+silly resolved     optionalDependencies: {},
+silly resolved     _engineSupported: false,
+silly resolved     _npmVersion: '1.1.9',
+silly resolved     _nodeVersion: 'v0.7.7-pre',
+silly resolved     _defaultsLoaded: true,
+silly resolved     dist: { shasum: '63fc8c4c87436581dad0b5323ad62a27b2bcc666' },
+silly resolved     _from: 'cucumber@0.2.12' } ]
+info into /Users/rollen_gomes/newage/imakefilejs cucumber@0.2.12
+info installOne cucumber@0.2.12
+ERR! Unsupported
+ERR! Not compatible with your version of node/npm: cucumber@0.2.12
+ERR! Required: {"node":"0.4 || 0.5 || 0.6"}
+ERR! Actual:   {"npm":"1.1.9","node":"0.7.7-pre"}
+ERR! 
+ERR! System Darwin 10.8.0
+ERR! command "node" "/usr/local/bin/npm" "install"
+ERR! cwd /Users/rollen_gomes/newage/imakefilejs/features/support
+ERR! node -v v0.7.7-pre
+ERR! npm -v 1.1.9
+ERR! code ENOTSUP
+ERR! message Unsupported
+ERR! errno {}
+verbose exit [ 1, true ]
